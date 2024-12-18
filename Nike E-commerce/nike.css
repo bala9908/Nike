@@ -1,0 +1,387 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav-bar{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.ul{
+    list-style: none;
+    color: white;
+    display: flex;
+}
+li{
+    margin: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    background-image: url("bg1.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+.mainv-section{
+    display: flex;
+}
+
+.h2{
+    padding-top: 20%;
+    font-size: 100px;
+    color: rgb(208, 34, 227);
+    padding-left: 10px;
+    font-style: oblique;
+}
+span{
+    color: rgb(178, 125, 228);
+}
+.p{
+    width: 70%;
+    font-style: oblique;
+    padding-left: 10px;
+
+}
+.social-icons{
+    align-self: center;
+}
+.second{
+    height: 100vh;
+    
+}
+.product-heading{
+    color: rgb(208, 34, 227);
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+   grid-gap: 25px;
+   border-radius: 15px;
+   border-color: aqua;
+   
+}
+
+
+
+.card{
+    background-color: rgba(229, 228, 239, 0.806);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 10%;
+    box-shadow: 5px 10px 10px rgb(208, 34, 227);;
+}
+.card-icon{
+    margin: 10px;
+}
+
+
+.card-icons{
+    display: flex;
+    flex-direction: column;  justify-content: flex-start;
+    align-self: flex-start;  
+}
+
+.shoe-name{
+    text-align: center;
+}
+.img{
+    width: 40%;
+    
+}
+
+.img:hover{
+    transform: scale(1.5);
+
+}
+
+
+.star-container{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.star{
+    color: yellow;
+    font-size: 15px;
+}
+
+.button{
+    background: linear-gradient(to right,#2a95bf,#a8aebf);
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.about-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+    
+
+.about-images-cards{
+  
+}
+.about-main-section{
+    min-height: 100vh;
+   
+    margin-top: 25%;
+    margin-left: 10%;
+}
+.about-heading{
+    text-align: center;
+    font-size: 50px;
+}
+.about-images-card{
+   width: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #c72092;
+}
+.about-image{
+    width: 100%;
+}
+.about-big-image{
+    background-color: aquamarine;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px gold;
+    height:340px;
+    width: 500px;
+    align-self: center;
+    margin: 20px;
+    
+}
+.about-big{
+    padding-bottom: 10px;
+}
+.about{
+    display: flex;
+    width: 60%;
+}
+.discription{
+    height:340px;
+    width: 500px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #6c14d0;
+}
+
+.dis{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    align-self: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.review-heading{
+    font-size: 50px;
+   text-align: center;
+}
+.span{
+   
+}
+.review-section{
+    height: 100vh;
+}
+.review-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+
+}
+.social-icon{
+    margin: 5px;
+    color: rgb(238, 25, 171);
+}
+
+.reviewcard-container{
+    width: 25%;
+    padding:10px;
+   box-shadow: 3px 3px 3px 3px #292c2d;
+    margin: 20px;
+}
+.Customers-review{
+    
+}
+.image-review{
+   
+}
+.review-image{
+    display: flex;
+    justify-content: space-around;
+}
+.dp{
+    width: 50%;
+    border-radius: 50%;
+    
+}
+.review-star{
+    color: yellow;
+}
+.reviewe-name{
+    font-size: 20px;
+    width: 150px;
+}
+.review-icons{
+    font-size: 10px;
+
+}
+
+.login-section{
+    
+}
+
+.login-page{
+    background-image: url("loging_bg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: 30%;
+   
+   
+    
+}
+
+.login-image{
+    width: 50%;
+    margin-right: 105;
+    
+}
+.login-page-container{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,#c72092,#6c14d0);
+    padding: 20px;
+    border-radius: 20px;
+    transition-property: initial;
+   
+    background-size: cover;
+    min-height: 30vh;
+    
+    opacity: 70%;
+    margin-right: 10%;
+    align-self: center;
+    
+}
+
+input{
+    border-radius: 5px;
+    padding: px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+input:hover{
+    transform: scale(1.2);
+    
+}
+.login-details{
+    color: white;
+    text-align: center;
+}
+.input-user{
+    color: white;
+}
+.login-icon{
+    color: #0a0909;
+    margin-right: 5px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.login-button{
+    margin-top: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.login-btn{
+    background:linear-gradient(to right,#c72092,#6c14d0);
+    color: white;
+}
+.name-error{
+    color: red;
+    margin-top: 5px;
+    text-align: center;
+}
+.password-error{
+    color: red;
+    margin-top: 5px;
+    text-align: center;
+}
+.login-msg{
+    color: green;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+.login-fail{
+    color: red;
+}
+.services-heading{
+    color: #c72092;
+}
+.service-icon{
+    font-size: 100px;
+    color: sandybrown;
+}
+.sevice-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-card{
+    margin: 25px;
+    text-align: center;
+    
+}
+.signup-icons-container{
+    display: flex;
+    justify-content: end;
+    margin-right: 15%;
+}
+.signup-icons{
+    width: 3%;
+    margin: 5px;
+}
